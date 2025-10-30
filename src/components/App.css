@@ -1,0 +1,11 @@
+@keyframes kenburns {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+.animate-kenburns {
+  animation: kenburns 20s ease-in-out infinite alternate;
+}
