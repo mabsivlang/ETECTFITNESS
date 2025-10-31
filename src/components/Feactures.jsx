@@ -1,5 +1,11 @@
 import React, { useState } from "react";
 import { Dumbbell, Clock, Users, Building } from "lucide-react"; // install with: npm i lucide-react
+// import image
+import image1 from "../assets/Feactures/image1.png";
+import image2 from "../assets/Feactures/image2.png";
+import image3 from "../assets/Feactures/image3.png";
+import image4 from "../assets/Feactures/image4.png";
+
 
 function Features() {
   const [activeFeature, setActiveFeature] = useState(1);
@@ -10,8 +16,7 @@ function Features() {
       title: "Cutting-Edge Equipment",
       description:
         "Experience fitness with our state-of-the-art equipment featuring the latest technology, ergonomic design, and premium quality for optimal performance.",
-      image:
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1200&q=80",
+      image:image1,
       icon: <Dumbbell className="w-6 h-6 text-red-600" />,
     },
     {
@@ -19,8 +24,7 @@ function Features() {
       title: "Flexible Hours",
       description:
         "Work out anytime! Our gym is open 24/7 to fit your busy schedule, so you can train whenever it suits you best.",
-      image:
-        "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?auto=format&fit=crop&w=1200&q=80",
+      image:image2,
       icon: <Clock className="w-6 h-6 text-red-600" />,
     },
     {
@@ -28,8 +32,7 @@ function Features() {
       title: "Expert Trainers",
       description:
         "Get personalized guidance from certified trainers to help you reach your fitness goals safely and efficiently.",
-      image:
-        "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=1200&q=80",
+      image:image3,
       icon: <Users className="w-6 h-6 text-red-600" />,
     },
     {
@@ -38,7 +41,7 @@ function Features() {
       description:
         "Train in a clean, inspiring, and fully air-conditioned environment designed to enhance your experience.",
       image:
-        "https://images.unsplash.com/photo-1554288245-76a05f0f7eb3?auto=format&fit=crop&w=1200&q=80",
+        image4,
       icon: <Building className="w-6 h-6 text-red-600" />,
     },
   ];

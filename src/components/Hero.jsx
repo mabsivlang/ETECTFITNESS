@@ -75,7 +75,7 @@ function Hero() {
             <div className="flex flex-col sm:flex-row gap-5 justify-center lg:justify-start">
               <a
                 href="#classes"
-                className="group relative overflow-hidden delete bg-red-600 px-8 py-4 text-white font-medium text-lg inline-flex items-center justify-center transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg"
+                className="group relative overflow-hidden rounded-full delete bg-red-600 px-8 py-4 text-white font-medium text-lg inline-flex items-center justify-center transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg"
               >
                 <span className="relative z-10">Explore Classes</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-red-700 to-red-500 transform scale-x-0 group-hover:scale-100 transition-all duration-300 origin-left"></div>

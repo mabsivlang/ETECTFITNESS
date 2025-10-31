@@ -1,4 +1,29 @@
 import { useState } from "react";
+// import image
+import image1 from "../assets/Classes/image1.png"
+import image2 from "../assets/Classes/image2.png"
+import image3 from "../assets/Classes/image3.png"
+import image4 from "../assets/Classes/image4.png"
+import image5 from "../assets/Classes/image5.png"
+import image6 from "../assets/Classes/image6.png"
+import image7 from "../assets/Classes/image7.png"
+import image8 from "../assets/Classes/image8.png"
+import image9 from "../assets/Classes/image9.png"
+import image10 from "../assets/Classes/image10.png"
+import image11 from "../assets/Classes/image11.png"
+import image12 from "../assets/Classes/image12.png"
+import image13 from "../assets/Classes/image13.png"
+import image14 from "../assets/Classes/image14.png"
+import image15 from "../assets/Classes/image15.png"
+import image16 from "../assets/Classes/image16.png"
+import image17 from "../assets/Classes/image17.png"
+import image18 from "../assets/Classes/image18.png"
+import image19 from "../assets/Classes/image19.png"
+import image20 from "../assets/Classes/image20.png"
+import image21 from "../assets/Classes/image21.png"
+import image22 from "../assets/Classes/image22.png"
+import image23 from "../assets/Classes/image23.png"
+import image24 from "../assets/Classes/image24.png"
 
 function Classes() {
   const classCategory = [
@@ -16,7 +41,7 @@ function Classes() {
   {
     name: "Morning Run",
     category: "Cardio",
-    image: "https://img.freepik.com/free-photo/happy-runner-woman-runs-park-jogging-exercise_1150-4180.jpg?semt=ais_hybrid&w=740&q=80",
+    image : image1,
     duration: "45 min",
     instructor: "John Smith",
     time: "7:00 AM"
@@ -24,7 +49,7 @@ function Classes() {
   {
     name: "HIIT Cardio",
     category: "Cardio",
-    image: "https://www.muscletech.com/cdn/shop/articles/HIIT_Workouts_2.jpg?v=1702665389",
+    image: image2,
     duration: "30 min",
     instructor: "Mike Davis",
     time: "8:00 AM"
@@ -32,7 +57,7 @@ function Classes() {
   {
     name: "Spin Cycle",
     category: "Cardio",
-    image: "https://herculesfitness.co.in/wp-content/uploads/2022/06/spin_bikes.jpg",
+    image: image3,
     duration: "50 min",
     instructor: "Jessica Taylor",
     time: "6:00 PM"
@@ -40,7 +65,7 @@ function Classes() {
   {
     name: "Dance Aerobics",
     category: "Cardio",
-    image: "https://dance-america.com/cdn/shop/articles/best-dance-workouts-for-weight-loss-and-toning-4333632.png?v=1752633179&width=1100",
+    image: image4,
     duration: "55 min",
     instructor: "Maria Garcia",
     time: "5:30 PM"
@@ -48,7 +73,7 @@ function Classes() {
   {
     name: "Kickboxing",
     category: "Cardio",
-    image: "/images/kickboxing.jpg",
+    image: image5,
     duration: "45 min",
     instructor: "Carlos Rodriguez",
     time: "7:30 AM"
@@ -58,7 +83,7 @@ function Classes() {
   {
     name: "Power Lifting",
     category: "Strength",
-    image: "/images/power-lifting.jpg",
+    image: image6,
     duration: "60 min",
     instructor: "Sarah Johnson",
     time: "9:00 AM"
@@ -66,7 +91,7 @@ function Classes() {
   {
     name: "Pilates Core",
     category: "Strength",
-    image: "/images/pilates-core.jpg",
+    image: image7,
     duration: "55 min",
     instructor: "David Lee",
     time: "10:00 AM"
@@ -74,7 +99,7 @@ function Classes() {
   {
     name: "Bodyweight Training",
     category: "Strength",
-    image: "/images/bodyweight-training.jpg",
+    image: image8,
     duration: "40 min",
     instructor: "James Wilson",
     time: "4:00 PM"
@@ -82,7 +107,7 @@ function Classes() {
   {
     name: "Kettlebell Fundamentals",
     category: "Strength",
-    image: "/images/kettlebell.jpg",
+    image: image9,
     duration: "50 min",
     instructor: "Robert Brown",
     time: "11:00 AM"
@@ -90,7 +115,7 @@ function Classes() {
   {
     name: "CrossFit Basics",
     category: "Strength",
-    image: "/images/crossfit.jpg",
+    image: image10,
     duration: "60 min",
     instructor: "Amanda Clark",
     time: "6:30 AM"
@@ -100,7 +125,7 @@ function Classes() {
   {
     name: "Stretch & Relax",
     category: "Flexibility",
-    image: "/images/stretch-relax.jpg",
+    image: image11,
     duration: "40 min",
     instructor: "Lisa Brown",
     time: "5:00 PM"
@@ -108,7 +133,7 @@ function Classes() {
   {
     name: "Deep Stretch",
     category: "Flexibility",
-    image: "/images/deep-stretch.jpg",
+    image: image12,
     duration: "35 min",
     instructor: "Sophie Martin",
     time: "8:00 PM"
@@ -116,7 +141,7 @@ function Classes() {
   {
     name: "Mobility Flow",
     category: "Flexibility",
-    image: "/images/mobility-flow.jpg",
+    image:image13,
     duration: "45 min",
     instructor: "Kevin Harris",
     time: "7:00 PM"
@@ -124,7 +149,7 @@ function Classes() {
   {
     name: "Flexibility for Runners",
     category: "Flexibility",
-    image: "/images/runners-flexibility.jpg",
+    image:image14,
     duration: "30 min",
     instructor: "Jennifer White",
     time: "4:30 PM"
@@ -134,7 +159,7 @@ function Classes() {
   {
     name: "Yoga Flow",
     category: "Mind & Body",
-    image: "/images/yoga-flow.jpg",
+    image: image15,
     duration: "50 min",
     instructor: "Emma Wilson",
     time: "6:00 PM"
@@ -142,7 +167,7 @@ function Classes() {
   {
     name: "Morning Meditation",
     category: "Mind & Body",
-    image: "/images/meditation.jpg",
+    image: image16,
     duration: "25 min",
     instructor: "Priya Patel",
     time: "6:30 AM"
@@ -150,7 +175,7 @@ function Classes() {
   {
     name: "Tai Chi Basics",
     category: "Mind & Body",
-    image: "/images/tai-chi.jpg",
+    image: image17,
     duration: "45 min",
     instructor: "Chen Wang",
     time: "8:00 AM"
@@ -158,7 +183,7 @@ function Classes() {
   {
     name: "Restorative Yoga",
     category: "Mind & Body",
-    image: "/images/restorative-yoga.jpg",
+    image: image18,
     duration: "60 min",
     instructor: "Maya Roberts",
     time: "7:30 PM"
@@ -166,7 +191,7 @@ function Classes() {
   {
     name: "Breathwork Session",
     category: "Mind & Body",
-    image: "/images/breathwork.jpg",
+    image: image19,
     duration: "30 min",
     instructor: "Daniel Kim",
     time: "12:00 PM"
@@ -174,7 +199,7 @@ function Classes() {
   {
     name: "Vinyasa Yoga",
     category: "Mind & Body",
-    image: "/images/vinyasa-yoga.jpg",
+    image: image20,
     duration: "55 min",
     instructor: "Olivia Green",
     time: "9:30 AM"
@@ -184,7 +209,7 @@ function Classes() {
   {
     name: "Bootcamp",
     category: "Cardio",
-    image: "/images/bootcamp.jpg",
+    image: image21,
     duration: "60 min",
     instructor: "Chris Thompson",
     time: "7:00 AM"
@@ -192,7 +217,7 @@ function Classes() {
   {
     name: "Barre Strength",
     category: "Strength",
-    image: "/images/barre.jpg",
+    image: image22,
     duration: "45 min",
     instructor: "Natalie Scott",
     time: "10:30 AM"
@@ -200,7 +225,7 @@ function Classes() {
   {
     name: "Aqua Fitness",
     category: "Cardio",
-    image: "/images/aqua-fitness.jpg",
+    image: image23,
     duration: "40 min",
     instructor: "Michelle Adams",
     time: "11:30 AM"
@@ -208,7 +233,7 @@ function Classes() {
   {
     name: "Senior Stretch",
     category: "Flexibility",
-    image: "/images/senior-stretch.jpg",
+    image: image24,
     duration: "35 min",
     instructor: "Barbara Miller",
     time: "10:00 AM"

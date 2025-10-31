@@ -1,5 +1,5 @@
 import { Dumbbell, Users, Award, HeartPulse } from "lucide-react"; // optional icons
-
+import image1 from "../assets/About/image1.png"
 function About() {
   return (
     <div id="about" className="relative py-24 bg-gray-50 overflow-hidden">
@@ -81,7 +81,7 @@ function About() {
           <div className="order-1 lg:order-2 relative">
             <div className="relative group">
               <img
-                src="https://images.unsplash.com/photo-1554284126-aa88f22d8b74?auto=format&fit=crop&w=800&q=80"
+                src={image1}
                 alt="Fitlife Gym"
                 className="w-full h-[500px] object-cover rounded-2xl shadow-2xl transform transition-all duration-500 group-hover:scale-105"
               />

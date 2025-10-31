@@ -1,5 +1,17 @@
 import { useState } from "react";
-
+// import image
+import image1 from "../assets/Trainers/image1.png"
+import image2 from "../assets/Trainers/image2.png"
+import image3 from "../assets/Trainers/image3.png"
+import image4 from "../assets/Trainers/image4.png"
+import image5 from "../assets/Trainers/image5.png"
+import image6 from "../assets/Trainers/image6.png"
+import image7 from "../assets/Trainers/image7.png"
+import image8 from "../assets/Trainers/image8.png"
+import image9 from "../assets/Trainers/image9.png"
+import image10 from "../assets/Trainers/image10.png"
+import image11 from "../assets/Trainers/image11.png"
+import image12 from "../assets/Trainers/image12.png"
 function Trainers() {
   const [activeSpecialty, setActiveSpecialty] = useState("All");
   const [activeModal, setActiveModal] = useState(null);
@@ -19,9 +31,9 @@ function Trainers() {
   {
     id: 1,
     name: "Sarah Johnson",
-    title: "Head Strength Coach",
+    title: "Head Strength Coach ",
     specialty: ["Strength Training", "CrossFit"],
-    image: "/images/trainers/sarah-johnson.jpg",
+    image: image1,
     experience: "8 years",
     certification: ["NASM-CPT", "CrossFit L2", "Precision Nutrition L1"],
     bio: "Sarah specializes in strength training and functional movement. She's helped over 200 clients transform their bodies and build confidence.",
@@ -40,9 +52,9 @@ function Trainers() {
   {
     id: 2,
     name: "Mike Chen",
-    title: "Yoga & Mindfulness Expert",
+    title: "Yoga & Mindfulness Expert ",
     specialty: ["Yoga & Pilates", "Rehabilitation"],
-    image: "/images/trainers/mike-chen.jpg",
+    image: image2,
     experience: "12 years",
     certification: ["E-RYT 500", "Yoga Therapy Certified", "Pilates Instructor"],
     bio: "Mike combines traditional yoga with modern science to create transformative mind-body experiences.",
@@ -60,9 +72,9 @@ function Trainers() {
   {
     id: 3,
     name: "Jessica Martinez",
-    title: "Cardio & HIIT Specialist",
+    title: "Cardio & HIIT Specialist && Coach",
     specialty: ["Cardio", "Strength Training"],
-    image: "/images/trainers/jessica-martinez.jpg",
+    image: image3,
     experience: "6 years",
     certification: ["ACE-CPT", "HIIT Specialist", "TRX Certified"],
     bio: "Jessica's high-energy sessions will push you to new limits.",
@@ -82,7 +94,7 @@ function Trainers() {
     name: "Dr. David Park",
     title: "Sports Nutritionist & Coach",
     specialty: ["Nutrition", "Strength Training"],
-    image: "/images/trainers/david-park.jpg",
+    image: image4,
     experience: "10 years",
     certification: ["PhD Sports Nutrition", "CSCS", "ISSA Certified"],
     bio: "David combines scientific nutrition with practical training methods.",
@@ -100,9 +112,9 @@ function Trainers() {
   {
     id: 5,
     name: "Marcus Rodriguez",
-    title: "Olympic Weightlifting Coach",
-    specialty: ["Strength Training", "CrossFit"],
-    image: "/images/trainers/marcus-rodriguez.jpg",
+    title: "Olympic Weightlifting",
+    specialty: ["Strength Training"],
+    image: image5,
     experience: "9 years",
     certification: ["USAW Level 2", "CrossFit L3", "NASM-CES"],
     bio: "Marcus specializes in Olympic weightlifting and powerlifting techniques. He has coached several national-level athletes.",
@@ -123,7 +135,7 @@ function Trainers() {
     name: "Priya Patel",
     title: "Holistic Wellness Coach",
     specialty: ["Yoga & Pilates", "Nutrition", "Mind & Body"],
-    image: "/images/trainers/priya-patel.jpg",
+    image: image6,
     experience: "11 years",
     certification: ["RYT 500", "Integrative Nutrition Coach", "Meditation Teacher"],
     bio: "Priya takes a holistic approach to fitness, combining yoga, nutrition, and mindfulness for complete wellness transformation.",
@@ -144,7 +156,7 @@ function Trainers() {
     name: "Alex Thompson",
     title: "Senior Fitness Specialist",
     specialty: ["Rehabilitation", "Strength Training"],
-    image: "/images/trainers/alex-thompson.jpg",
+    image: image7,
     experience: "14 years",
     certification: ["ACE Senior Fitness", "Physical Therapy Aide", "Balance Training"],
     bio: "Alex specializes in helping older adults maintain mobility, strength, and independence through safe and effective exercise programs.",
@@ -165,7 +177,7 @@ function Trainers() {
     name: "Chloe Williams",
     title: "Dance Fitness Instructor",
     specialty: ["Cardio", "Mind & Body"],
-    image: "/images/trainers/chloe-williams.jpg",
+    image: image8,
     experience: "7 years",
     certification: ["Zumba Instructor", "Dance Fitness Pro", "ACE Group Fitness"],
     bio: "Chloe brings energy and joy to fitness through dance. Her classes are known for being fun, inclusive, and highly effective.",
@@ -186,7 +198,7 @@ function Trainers() {
     name: "Dr. Maria Gonzalez",
     title: "Physical Therapist & Rehab Specialist",
     specialty: ["Rehabilitation", "Yoga & Pilates"],
-    image: "/images/trainers/maria-gonzalez.jpg",
+    image: image9,
     experience: "15 years",
     certification: ["DPT", "Corrective Exercise Specialist", "Yoga for Therapy"],
     bio: "Maria is a Doctor of Physical Therapy who specializes in injury prevention and rehabilitation through targeted exercise programs.",
@@ -207,7 +219,7 @@ function Trainers() {
     name: "James Wilson",
     title: "Sports Performance Coach",
     specialty: ["Strength Training", "Cardio", "CrossFit"],
-    image: "/images/trainers/james-wilson.jpg",
+    image: image10,
     experience: "12 years",
     certification: ["CSCS", "NASM-PES", "USA Track & Field"],
     bio: "James works with athletes of all levels to improve performance, speed, and agility through scientifically-backed training methods.",
@@ -226,9 +238,9 @@ function Trainers() {
   {
     id: 11,
     name: "Lisa Brown",
-    title: "Pre & Postnatal Fitness Expert",
+    title: "Pre & Postnatal Fitness Expert Mind & Body ,Coach",
     specialty: ["Rehabilitation", "Strength Training", "Mind & Body"],
-    image: "/images/trainers/lisa-brown.jpg",
+    image:image11,
     experience: "8 years",
     certification: ["Pre/Postnatal Certified", "Pelvic Floor Specialist", "Yoga for Pregnancy"],
     bio: "Lisa specializes in safe and effective fitness programs for expecting and new mothers, focusing on strength and recovery.",
@@ -247,9 +259,9 @@ function Trainers() {
   {
     id: 12,
     name: "Carlos Mendez",
-    title: "Boxing & Martial Arts Coach",
+    title: "Boxing & Martial Arts Coach, Performance",
     specialty: ["Cardio", "Strength Training"],
-    image: "/images/trainers/carlos-mendez.jpg",
+    image: image12,
     experience: "10 years",
     certification: ["Boxing Coach Level 3", "Muay Thai Instructor", "Strength & Conditioning"],
     bio: "Carlos combines boxing techniques with fitness training for high-intensity workouts that build strength, endurance, and confidence.",
@@ -406,7 +418,7 @@ function Trainers() {
         {/* Book Session Modal */}
         {activeModal === 'book' && selectedTrainer && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
-            <div className="bg-white rounded-2xl max-w-md w-full max-h-[90vh] overflow-y-auto">
+            <div className="bg-white  max-w-md w-full max-h-[90vh] overflow-y-auto">
               <div className="p-6">
                 {/* Header */}
                 <div className="flex justify-between items-center mb-6">

@@ -1,5 +1,11 @@
 import { useState } from "react";
-
+// import image
+import image1 from "../assets/Testimonial/image1.png"
+import image2 from "../assets/Testimonial/image2.png"
+import image3 from "../assets/Testimonial/image3.png"
+import image4 from "../assets/Testimonial/image4.png"
+import image5 from "../assets/Testimonial/image5.png"
+import image6 from "../assets/Testimonial/image6.png"
 function Testimonials() {
   const [activeCategory, setActiveCategory] = useState("All");
   const [activeTestimonial, setActiveTestimonial] = useState(null); // Changed from 0 to null
@@ -24,7 +30,7 @@ function Testimonials() {
       duration: "6 months",
       beforeWeight: "185 lbs",
       afterWeight: "145 lbs",
-      image: "/images/testimonials/sarah-mitchell.jpg",
+      image: image1,
       video: "/videos/testimonials/sarah-journey.mp4",
       quote: "I never thought I could lose 40 pounds and keep it off. The trainers here changed my life completely!",
       story: "After having two kids, I struggled with my weight for years. The personalized nutrition plan and consistent support helped me not only lose weight but build healthy habits that last. I've never felt better!",
@@ -41,7 +47,7 @@ function Testimonials() {
       duration: "8 months",
       beforeWeight: "160 lbs",
       afterWeight: "180 lbs",
-      image: "/images/testimonials/michael-chen.jpg",
+      image: image2,
       video: "/videos/testimonials/michael-strength.mp4",
       quote: "Gained 20 pounds of muscle and finally feel confident in my own skin! I struggled with my weight for years.",
       story: "As a software engineer, I spent most of my day sitting. I was skinny and lacked confidence. The strength training program transformed my body and mindset. Now I have energy throughout the day!",
@@ -58,7 +64,7 @@ function Testimonials() {
       duration: "1 year",
       beforeWeight: "N/A",
       afterWeight: "N/A",
-      image: "/images/testimonials/emily-rodriguez.jpg",
+      image: image3,
       video: "/videos/testimonials/emily-yoga.mp4",
       quote: "Yoga here healed my chronic back pain and brought peace to my busy life. I struggled with my weight for years. I thought my active life was over. They proved me wrong!",
       story: "Years of desk work left me with terrible back pain. After trying everything, I found Mike's yoga classes. The pain is gone, and I've found a practice that keeps me centered.",
@@ -75,7 +81,7 @@ function Testimonials() {
       duration: "4 months",
       beforeWeight: "N/A",
       afterWeight: "N/A",
-      image: "/images/testimonials/david-thompson.jpg",
+      image: image4,
       video: "/videos/testimonials/david-rehab.mp4",
       quote: "After my knee surgery, I thought my active life was over. They proved me wrong!  I thought my active life was over. They proved me wrong!",
       story: "Post-surgery rehabilitation with Dr. Gonzalez got me back on my feet faster than expected. The careful progression and expert guidance made all the difference. ",
@@ -92,7 +98,7 @@ function Testimonials() {
       duration: "3 months",
       beforeWeight: "170 lbs",
       afterWeight: "150 lbs",
-      image: "/images/testimonials/jessica-park.jpg",
+      image:image5,
       video: "/videos/testimonials/jessica-nutrition.mp4",
       quote: "The nutrition coaching helped me understand food in a whole new way. No more diets!",
       story: "I was stuck in the diet cycle for years. Dr. Park taught me about sustainable nutrition. I've lost 20 pounds without feeling deprived and have more energy than ever.",
@@ -109,115 +115,14 @@ function Testimonials() {
       duration: "1 year",
       beforeWeight: "220 lbs",
       afterWeight: "195 lbs",
-      image: "/images/testimonials/robert-johnson.jpg",
+      image: image6,
       video: "/videos/testimonials/robert-transformation.mp4",
       quote: "At 45, I'm in the best shape of my life. The trainers understand adult fitness needs. I thought my active life was over. ",
       story: "I thought my best years were behind me. The program designed for my age group helped me lose fat, gain muscle, and feel younger than I did in my 30s.",
       trainer: "James Wilson",
       achievements: ["Lost 25 lbs", "Gained muscle mass", "Improved cholesterol", "More energy"]
     },
-    {
-      id: 7,
-      name: "Amanda Lee",
-      age: 29,
-      location: "Boston, MA",
-      category: "Weight Loss",
-      rating: 5,
-      duration: "5 months",
-      beforeWeight: "200 lbs",
-      afterWeight: "160 lbs",
-      image: "/images/testimonials/amanda-lee.jpg",
-      video: "/videos/testimonials/amanda-weightloss.mp4",
-      quote: "40 pounds gone forever! The community support made all the difference.",
-      story: "I tried every quick fix out there. What worked was the comprehensive approach here - exercise, nutrition, and most importantly, the amazing community that kept me motivated.",
-      trainer: "Jessica Martinez",
-      achievements: ["Lost 40 pounds", "Completed first marathon", "Improved self-confidence", "Healthy habits established"]
-    },
-    {
-      id: 8,
-      name: "Carlos Martinez",
-      age: 38,
-      location: "Denver, CO",
-      category: "Rehabilitation",
-      rating: 5,
-      duration: "6 months",
-      beforeWeight: "N/A",
-      afterWeight: "N/A",
-      image: "/images/testimonials/carlos-martinez.jpg",
-      video: "/videos/testimonials/carlos-recovery.mp4",
-      quote: "From chronic shoulder pain to pain-free living. Thank you for giving me my life back! Completed first marathon",
-      story: "Years of construction work destroyed my shoulders. The rehabilitation program not only eliminated my pain but taught me how to prevent future injuries.",
-      trainer: "Alex Thompson",
-      achievements: ["No shoulder pain", "Full range of motion", "Strength recovery", "Injury prevention knowledge"]
-    },
-    {
-      id: 9,
-      name: "Jennifer Kim",
-      age: 33,
-      location: "Portland, OR",
-      category: "Yoga & Pilates",
-      rating: 5,
-      duration: "8 months",
-      beforeWeight: "N/A",
-      afterWeight: "N/A",
-      image: "/images/testimonials/jennifer-kim.jpg",
-      video: "/videos/testimonials/jennifer-yoga.mp4",
-      quote: "Pilates transformed my posture and eliminated my neck pain from desk work. Completed first marathon",
-      story: "As a graphic designer, I spent hours hunched over my computer. Priya's Pilates classes not only fixed my posture but made me more aware of my body throughout the day.",
-      trainer: "Priya Patel",
-      achievements: ["Improved posture", "No neck pain", "Better body awareness", "Reduced stress"]
-    },
-    {
-      id: 10,
-      name: "Thomas Wilson",
-      age: 50,
-      location: "Phoenix, AZ",
-      category: "Nutrition",
-      rating: 4,
-      duration: "4 months",
-      beforeWeight: "210 lbs",
-      afterWeight: "185 lbs",
-      image: "/images/testimonials/thomas-wilson.jpg",
-      video: "/videos/testimonials/thomas-health.mp4",
-      quote: "Finally understand how to eat for health, not just for weight loss.",
-      story: "At 50, my doctor warned me about pre-diabetes. The nutrition program helped me lose weight and, more importantly, improve all my health markers.",
-      trainer: "Dr. David Park",
-      achievements: ["Lost 25 pounds", "Improved blood sugar", "Better cholesterol", "Sustainable eating habits"]
-    },
-    {
-      id: 11,
-      name: "Maria Garcia",
-      age: 36,
-      location: "San Diego, CA",
-      category: "Weight Loss",
-      rating: 5,
-      duration: "7 months",
-      beforeWeight: "190 lbs",
-      afterWeight: "145 lbs",
-      image: "/images/testimonials/maria-garcia.jpg",
-      video: "/videos/testimonials/maria-transformation.mp4",
-      quote: "Post-baby weight that wouldn't budge is finally gone! Feel like myself again.",
-      story: "After having my second child, I struggled to lose the weight. Lisa's postnatal program was exactly what I needed - safe, effective, and understanding of my body's changes.",
-      trainer: "Lisa Brown",
-      achievements: ["Lost 45 pounds", "Core strength restored", "Energy with kids", "Body confidence"]
-    },
-    {
-      id: 12,
-      name: "Kevin Davis",
-      age: 41,
-      location: "Atlanta, GA",
-      category: "Strength Training",
-      rating: 5,
-      duration: "9 months",
-      beforeWeight: "180 lbs",
-      afterWeight: "195 lbs",
-      image: "/images/testimonials/kevin-davis.jpg",
-      video: "/videos/testimonials/kevin-strength.mp4",
-      quote: "Never thought I'd be this strong at 41. The program is perfectly tailored for",
-      story: "Between work and family, I struggled to find time. The efficient workout plans and flexible scheduling made consistency possible, and the results speak for themselves.",
-      trainer: "Sarah Johnson",
-      achievements: ["Gained 15 lbs muscle", "Deadlift 405 lbs", "Improved work performance", "Better stress management"]
-    }
+   
   ];
 
   const filteredTestimonials = activeCategory === "All" 
@@ -312,9 +217,9 @@ function Testimonials() {
                   alt={testimonial.name}
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute top-4 right-4 bg-red-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+                {/* <div className="absolute top-4 right-4 bg-red-600 text-white px-3 py-1 rounded-full text-sm font-medium">
                   {testimonial.category}
-                </div>
+                </div> */}
               </div>
 
               {/* Testimonial Content */}
@@ -390,7 +295,7 @@ function Testimonials() {
         {/* Featured Testimonial Modal */}
         {activeTestimonial !== null && filteredTestimonials[activeTestimonial] && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
-            <div className="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+            <div className="bg-white max-w-4xl w-full max-h-[90vh] overflow-y-auto">
               <div className="p-8">
                 <>
                   {/* Header */}
@@ -503,7 +408,7 @@ function Testimonials() {
             Join thousands of members who have transformed their lives. Your journey to better health starts today.
           </p>
           <div className="space-x-4">
-            <button className="bg-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition duration-300">
+            <button className="bg-red-600 text-white m-3 px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition duration-300">
               Start Free Trial
             </button>
             <button className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-semibold hover:border-gray-400 transition duration-300">
