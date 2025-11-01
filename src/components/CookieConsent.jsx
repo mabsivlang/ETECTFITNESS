@@ -15,7 +15,7 @@ function CookieConsent() {
       // Show modal after a short delay for better UX
       const timer = setTimeout(() => {
         setShowCookieModal(true);
-      }, 1000);
+      }, 2000);
       return () => clearTimeout(timer);
     }
   }, []);

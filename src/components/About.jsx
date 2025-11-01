@@ -11,11 +11,11 @@ function About() {
           {/* Left Section */}
           <div className="order-2 lg:order-1 space-y-6">
             <h2 className="text-3xl md:text-5xl font-extrabold text-gray-900 leading-tight">
-              About <span className="text-red-600">Fitlife</span>
+              About <span className="text-red-600">FitElitle</span>
             </h2>
 
             <p className="text-lg text-gray-600">
-              At <span className="font-semibold text-gray-900">Fitlife</span>, we believe
+              At <span className="font-semibold text-gray-900">FitElite</span>, we believe
               fitness is more than a goal—it’s a lifestyle. Our modern gym combines
               cutting-edge equipment, personalized training, and a supportive
               community to help you become your strongest self.

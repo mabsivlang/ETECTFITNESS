@@ -49,8 +49,8 @@ function Contact() {
         </svg>
       ),
       title: "Call Us",
-      details: "+885 (87508869)",
-      description: "Mon-Fri from 8am to 6pm",
+      details: "+885 ( 87508869 )",
+      description: "Mon-Sun from 8am to 6pm",
       action: "tel:+88587508869"
     },
     {
@@ -83,7 +83,7 @@ function Contact() {
         </svg>
       ),
       title: "Business Hours",
-      details: "Mon-Sun: 7am - 8pm",
+      details: "Mon-Sun: 8am - 8pm",
       description: "Open 7 days a week",
       action: null
     }
@@ -219,7 +219,7 @@ function Contact() {
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent transition duration-300"
-                      placeholder="+885 (123) 456-789"
+                      placeholder="+885 ( 87505569 )"
                     />
                   </div>
                   <div>
